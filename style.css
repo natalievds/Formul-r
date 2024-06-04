@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.caveat-unique {
+  font-family: "Caveat", cursive;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 2.4rem;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 30px;
+}
+
+h6 {
+  font-family: "Caveat", cursive;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #61797b;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background-color: #f3f9ed;
+  font-family: "Roboto", sans-serif;
+  color: #213f41;
+  padding-right: 24px;
+}
+
+svg {
+  height: 44px;
+  width: 82px;
+  padding-left: 20px;
+}
+
+.navbar {
+  display: flex;
+  gap: 10px;
+}
+
+.hero {
+  background-color: #cde9b9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  font-family: "Roboto", sans-serif;
+  color: #213f41;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.myForm {
+  background-color: #f9f9f4;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 24px;
+  width: 33%;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: left;
+  white-space: normal;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+input[type="text"],
+textarea,
+select {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.list-options-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.list-options-inner-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 1px #b1c1c1;
+  border-radius: 5px;
+  padding: 8px;
+  min-height: 34px;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.list-options-inner-wrapper input {
+  margin-right: 10px;
+}
+
+select {
+  margin-top: 20px;
+}
+
+.dropDown {
+  text-align: left;
+}
+
+.sizeProject {
+  text-align: left;
+  margin-bottom: 10px;
+  gap: 100px;
+}
+
+.inputProjects {
+  text-align: left;
+}
+
+.btn {
+  align-self: center;
+  width: 140px;
+  height: 70px;
+  border-radius: 1rem;
+  font-weight: 500;
+  background-color: #99b6af;
+  color: white;
+  font-size: medium;
+}
